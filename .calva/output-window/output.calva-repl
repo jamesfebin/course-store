@@ -1,0 +1,357 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Bad url: localhost:
+#object[Function]
+cljs꞉course-store.views꞉>  ; Use `alt+enter` to evaluate
+(2 3 4)
+cljs꞉course-store.views꞉> 
+nil
+cljs꞉course-store.views꞉> 
+:course :id
+
+nil
+cljs꞉course-store.views꞉> 
+nil
+
+nil
+cljs꞉course-store.views꞉> 
+1
+
+nil
+cljs꞉course-store.views꞉> 
+1
+
+nil
+cljs꞉course-store.views꞉> 
+{:id 1}
+
+nil
+cljs꞉course-store.views꞉> 
+[1 2 3]
+
+nil
+cljs꞉course-store.views꞉> 
+:category
+cljs꞉course-store.views꞉> 
+:a
+cljs꞉course-store.views꞉> 
+:'a
+cljs꞉course-store.views꞉> 
+:a
+cljs꞉course-store.views꞉> 
+:hello
+cljs꞉course-store.views꞉> 
+{:a [1], :b [2]}
+cljs꞉course-store.views꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; TypeError: undefined is not an object (evaluating 'p1__60304_SHARP_.cljs$core$IFn$_invoke$arity$1')
+cljs꞉course-store.views꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; TypeError: undefined is not an object (evaluating 'p1__60304_SHARP_.cljs$core$IFn$_invoke$arity$1')
+cljs꞉course-store.views꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; TypeError: undefined is not an object (evaluating 'p1__60304_SHARP_.cljs$core$IFn$_invoke$arity$1')
+cljs꞉course-store.views꞉> 
+false
+cljs꞉course-store.views꞉> 
+true
+cljs꞉course-store.views꞉> 
+false
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Key must be integer
+cljs꞉course-store.views꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:48
+ Use of undeclared Var course-store.views/b
+--------------------------------------------------------------------------------
+
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Key must be integer
+cljs꞉course-store.views꞉> 
+["a" "b"]
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Key must be integer
+cljs꞉course-store.views꞉> 
+{:filters ["a" "b"]}
+cljs꞉course-store.views꞉> 
+{:filters [#object[Function] #object[Function]]}
+cljs꞉course-store.views꞉> 
+{:filters [#object[Function] #object[Function]]}
+cljs꞉course-store.views꞉> 
+#'course-store.views/main-panel
+cljs꞉course-store.views꞉> 
+true
+cljs꞉course-store.views꞉> 
+:id
+
+#object[cljs$core$_GT_]
+
+2
+
+true
+cljs꞉course-store.views꞉> 
+:id
+
+#object[cljs$core$_GT_]
+
+2
+
+true
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Invalid arity: 0
+cljs꞉course-store.views꞉> 
+{:category Clojure}
+
+nil
+cljs꞉course-store.views꞉> 
+nil
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+No protocol method IMapEntry.-key defined for type cljs.core/PersistentArrayMap: {:a "B"}
+cljs꞉course-store.views꞉> 
+(:a)
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+No protocol method IMapEntry.-key defined for type cljs.core/PersistentArrayMap: {:a 1}
+cljs꞉course-store.views꞉> 
+[:a 1]
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+nth not supported on this type cljs.core/PersistentArrayMap
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; ------ REPL Error while processing ---------------------------------------------
+; (defn Hello
+  [{:key :val}]
+  (println :key)
+  (println :val))
+Syntax error macroexpanding cljs.core/defn.
+Call to cljs.core/defn did not conform to spec.
+-- Spec failed --------------------
+
+  (... [{:key :val}] ... ...)
+        ^^^^^^^^^^^
+
+has extra input
+
+or
+
+should satisfy
+
+  vector?
+
+-- Relevant specs -------
+
+:shadow.cljs.devtools.cljs-specs/param-list:
+  (clojure.spec.alpha/and
+   clojure.core/vector?
+   (clojure.spec.alpha/cat
+    :params
+    (clojure.spec.alpha/* :shadow.cljs.devtools.cljs-specs/binding-form)
+    :var-params
+    (clojure.spec.alpha/?
+     (clojure.spec.alpha/cat
+      :ampersand
+      #{'&}
+      :var-form
+      :shadow.cljs.devtools.cljs-specs/binding-form))))
+:shadow.cljs.devtools.cljs-specs/params+body:
+  (clojure.spec.alpha/cat
+   :params
+   :shadow.cljs.devtools.cljs-specs/param-list
+   :body
+   (clojure.spec.alpha/alt
+    :prepost+body
+    (clojure.spec.alpha/cat
+     :prepost
+     clojure.core/map?
+     :body
+     (clojure.spec.alpha/+ clojure.core/any?))
+    :body
+    (clojure.spec.alpha/* clojure.core/any?)))
+:shadow.cljs.devtools.cljs-specs/defn-args:
+  (clojure.spec.alpha/cat
+   :fn-name
+   clojure.core/simple-symbol?
+   :docstring
+   (clojure.spec.alpha/? clojure.core/string?)
+   :meta
+   (clojure.spec.alpha/? clojure.core/map?)
+   :fn-tail
+   (clojure.spec.alpha/alt
+    :arity-1
+    :shadow.cljs.devtools.cljs-specs/params+body
+    :arity-n
+    (clojure.spec.alpha/cat
+     :bodies
+     (clojure.spec.alpha/+
+      (clojure.spec.alpha/spec
+       :shadow.cljs.devtools.cljs-specs/params+body))
+     :attr-map
+     (clojure.spec.alpha/? clojure.core/map?))))
+
+-------------------------
+Detected 1 error
+
+; 
+; Execution error (Error) at (<cljs repl>:1).
+nth not supported on this type cljs.core/PersistentArrayMap
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; ------ REPL Error while processing ---------------------------------------------
+; (defn Hello
+  [{:key :val}]
+  (println :key)
+  (println :val))
+Syntax error macroexpanding cljs.core/defn.
+Call to cljs.core/defn did not conform to spec.
+-- Spec failed --------------------
+
+  (... [{:key :val}] ... ...)
+        ^^^^^^^^^^^
+
+has extra input
+
+or
+
+should satisfy
+
+  vector?
+
+-- Relevant specs -------
+
+:shadow.cljs.devtools.cljs-specs/param-list:
+  (clojure.spec.alpha/and
+   clojure.core/vector?
+   (clojure.spec.alpha/cat
+    :params
+    (clojure.spec.alpha/* :shadow.cljs.devtools.cljs-specs/binding-form)
+    :var-params
+    (clojure.spec.alpha/?
+     (clojure.spec.alpha/cat
+      :ampersand
+      #{'&}
+      :var-form
+      :shadow.cljs.devtools.cljs-specs/binding-form))))
+:shadow.cljs.devtools.cljs-specs/params+body:
+  (clojure.spec.alpha/cat
+   :params
+   :shadow.cljs.devtools.cljs-specs/param-list
+   :body
+   (clojure.spec.alpha/alt
+    :prepost+body
+    (clojure.spec.alpha/cat
+     :prepost
+     clojure.core/map?
+     :body
+     (clojure.spec.alpha/+ clojure.core/any?))
+    :body
+    (clojure.spec.alpha/* clojure.core/any?)))
+:shadow.cljs.devtools.cljs-specs/defn-args:
+  (clojure.spec.alpha/cat
+   :fn-name
+   clojure.core/simple-symbol?
+   :docstring
+   (clojure.spec.alpha/? clojure.core/string?)
+   :meta
+   (clojure.spec.alpha/? clojure.core/map?)
+   :fn-tail
+   (clojure.spec.alpha/alt
+    :arity-1
+    :shadow.cljs.devtools.cljs-specs/params+body
+    :arity-n
+    (clojure.spec.alpha/cat
+     :bodies
+     (clojure.spec.alpha/+
+      (clojure.spec.alpha/spec
+       :shadow.cljs.devtools.cljs-specs/params+body))
+     :attr-map
+     (clojure.spec.alpha/? clojure.core/map?))))
+
+-------------------------
+Detected 1 error
+
+; 
+; Execution error (Error) at (<cljs repl>:1).
+nth not supported on this type cljs.core/PersistentArrayMap
+cljs꞉course-store.views꞉> 
+:category'
+cljs꞉course-store.views꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+nth not supported on this type cljs.core/PersistentArrayMap
+cljs꞉course-store.views꞉> 
+got filter
+
+{:id 1, :name Introduction to Clojure, :description Learn to build powerful applications with less code using Clojure., :category Clojure, :started false}
+
+category
+
+got filter
+
+{:id 2, :name ClojureScript Basics, :description Build frontend application at lightning speeds., :category Clojure, :started false}
+
+category
+
+got filter
+
+{:id 3, :name Rust Basics, :description Run frontend application at lightning speeds., :category Rust, :started false}
+
+category
+
+got filter
+
+{:id 4, :name Rust Advanced, :description Build great games at lightning speeds., :category Rust, :started true}
+
+category
+
+({:id 1, :name "Introduction to Clojure", :description "Learn to build powerful applications with less code using Clojure.", :category "Clojure", :started false} {:id 2, :name "ClojureScript Basics", :description "Build frontend application at lightning speeds.", :category "Clojure", :started false})
+cljs꞉course-store.views꞉> 
